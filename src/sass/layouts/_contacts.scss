@@ -1,0 +1,200 @@
+@import "../components/container";
+@import "../base/index";
+.contact {
+    @media screen and (max-width: 767px){
+        // padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (min-width: 768px){
+        min-width: 768px;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @media screen and (min-width: 1200px){
+        min-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.contact-conteiner {
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+
+    
+    @media screen and (max-width: 767px){
+    width: 280px;
+    height: 412px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @media screen and (min-width: 768px){
+    width: 224px;
+    height: 528px; 
+    margin-right: auto;   
+    }
+
+    @media screen and (min-width: 1200px){
+    width: 368px;
+    height: 538px;
+    margin-right: 16px;
+    margin-left: 16px;     
+}
+}
+
+.contact-conteiner:last-child {
+    @media screen and (max-width: 767px){
+        margin-bottom: 32px;
+}
+}
+.contact-list_item {
+@media screen and (max-width: 767px){
+    width: 216px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    }
+@media screen and (min-width: 768px){
+    width: 160px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    }
+
+@media screen and (min-width: 1200px){
+    width:288px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    }
+}
+.part {
+border-bottom: 1px solid var(--icon-cl-2); 
+}
+.contact-button {
+width: 80px;
+height: 16px;
+border-radius: 4px;
+margin-bottom: 20px;
+
+font-weight: 500;
+font-size: 12px;
+line-height: 22px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+color: var(--white-color);
+background-color:  var(--bg-product-1-color);
+
+    @media screen and (min-width: 768px){
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 30px;
+        width: 73px;
+        height: 28px;
+     }
+}
+
+.contact-button__foodtrack{ 
+    width: 130px;
+    height: 16px;
+
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: var(--white-color);
+    background-color: var(--bg-product-2-color);
+
+    @media screen and (min-width: 768px){
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 30px;
+        width: 138px;
+        height: 28px;
+     }
+}
+
+.contact-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+        line-height: 26px;  
+    }
+}
+.contact-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: var(--main-grey-text-color);
+
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+.contact-timetable {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+   
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+.contact-time {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+
+    color: var(--main-pink-text-color);
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+.contact-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: var( --main-grey-text-color);
+    display: flex;
+    align-items: baseline;
+
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
